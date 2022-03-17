@@ -1,0 +1,504 @@
+{
+  "id": "35d827b5-38e1-4b5c-9bf9-8fd8eefbd81a",
+  "version": "2.0",
+  "name": "A4",
+  "url": "https://www.walmart.ca/en",
+  "tests": [{
+    "id": "0b381a1f-ac92-4e55-aa2b-8705c1b7c824",
+    "name": "",
+    "commands": []
+  }, {
+    "id": "0b95bd25-0733-4007-b05d-732587748c27",
+    "name": "Search Function",
+    "commands": [{
+      "id": "4f2b2e36-b414-48a3-9a35-834cf9ca2a8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e960552-93bd-4a6e-9611-b301f56695d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "933x677",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7de4a68a-0ab9-4dd4-af33-f7a01b161acf",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chair"
+    }, {
+      "id": "022a905c-b337-4831-8c1c-fa021ae89d9a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "54c0203e-98d2-4d92-8dc2-3700c68504e2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1j5lmgc:nth-child(1)",
+      "targets": [
+        ["css=.css-1j5lmgc:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='carouselZone1']/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263dcb34-d2db-4291-83a9-2ebf2f3d13c0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-459x84",
+      "targets": [
+        ["css=.css-459x84", "css:finder"],
+        ["xpath=//div[@id='browse-search-page']/div/div/div/div/div[7]/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3685433e-98fe-453b-bf82-fd1d2def2bcb",
+    "name": "Invalid Search",
+    "commands": [{
+      "id": "011b7393-7fe7-4091-935e-edac17575dca",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cddb674b-8ead-4f99-a6b1-38ed8dc14a78",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99c9acce-8311-448f-a0e8-f59accbc1da7",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asfdhalksfjh"
+    }, {
+      "id": "dbd5ef86-a2b6-4c97-9393-cd9fba47922d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ad82f055-2a38-4d31-bf23-d1542f4a2289",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-lgciw",
+      "targets": [
+        ["css=.css-lgciw", "css:finder"],
+        ["xpath=//div[@id='browse-search-page']/div/div/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "94fb89a4-d843-43ff-bea4-8c74087df378",
+    "name": "Price Category",
+    "commands": [{
+      "id": "54e1fd52-c7bc-4786-b7ce-70e0d2c3ec55",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce4891ca-5f74-4be2-a560-fcbca31a9ad3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38d59f32-48c2-4f5b-a3e6-af3b88aedcec",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chair"
+    }, {
+      "id": "68e7c5b4-43d0-43a6-b654-078b07456e78",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8d4713be-b2e2-494e-b047-d981d26d9c8d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,494)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64bbddb6-e68a-4f7f-9c28-aa1871c90a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hboir5:nth-child(6) .css-1qd0044",
+      "targets": [
+        ["css=.css-hboir5:nth-child(6) .css-1qd0044", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd42043f-8253-4890-b70d-baac915df733",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-hboir5:nth-child(6) .css-1qd0044",
+      "targets": [
+        ["css=.css-hboir5:nth-child(6) .css-1qd0044", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b5f405d-d379-41f0-b6ea-c164aeaa91f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gw301e:nth-child(2) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(2) > .css-14avrqk", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87f4499-ab5a-46d1-a030-0961d1b2ecaa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gw301e:nth-child(2) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(2) > .css-14avrqk", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "c30b0ecc-96c7-4636-aba1-9331cfb7ac04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gw301e:nth-child(3) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(3) > .css-14avrqk", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad428af-80cb-4e92-b965-63603fb2047c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gw301e:nth-child(3) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(3) > .css-14avrqk", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "7decd48a-abdd-4e0f-94eb-81ab0ace1be7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gja9m7",
+      "targets": [
+        ["css=.css-gja9m7", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56481946-7485-4834-9fdc-bed1701f1669",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,773)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39d1e5d6-4545-45b6-a08c-1f64183a9cc6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,684.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1847c4e6-b50b-43d4-86ba-1a2b495eb607",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-459x84",
+      "targets": [
+        ["css=.css-459x84", "css:finder"],
+        ["xpath=//div[@id='browse-search-page']/div/div/div/div/div[7]/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e82a3773-c730-4356-a1aa-dd3e57025159",
+    "name": "Invalid Price",
+    "commands": [{
+      "id": "5810a788-f77d-443f-b9ac-ad9f4e0ddcce",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/search?q=chair",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3e391d0-f8f7-4191-abf1-e0f72ceca421",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6957929-2889-4305-a266-d70447a64f12",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,168)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a6e268b-9b8e-4c97-9185-3910c8a49a53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-hboir5:nth-child(10) .css-h4tqsq",
+      "targets": [
+        ["css=.css-hboir5:nth-child(10) .css-h4tqsq", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[9]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Size')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a0ec20-85e6-42c7-a2ef-35c85e4d6e7c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-hboir5:nth-child(10) .css-h4tqsq",
+      "targets": [
+        ["css=.css-hboir5:nth-child(10) .css-h4tqsq", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[9]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Size')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "133a8bc1-b9ab-48e2-88f8-4da2050c0398",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hboir5:nth-child(6) .css-1ik4laa",
+      "targets": [
+        ["css=.css-hboir5:nth-child(6) .css-1ik4laa", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563c5079-ba38-4637-bd1d-f7483f1c2bd8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-hboir5:nth-child(6) .css-1ik4laa",
+      "targets": [
+        ["css=.css-hboir5:nth-child(6) .css-1ik4laa", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "973b6f72-4843-4ed0-a3b6-5b1ec44c4259",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-hboir5:nth-child(6) .css-1ik4laa",
+      "targets": [
+        ["css=.css-hboir5:nth-child(6) .css-1ik4laa", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bab16c6-1087-4076-bc77-5d64e4ffa051",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gw301e:nth-child(2) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(2) > .css-14avrqk", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28656eb-0cc8-4d7f-8a01-b95e7b2a6d6c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gw301e:nth-child(2) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(2) > .css-14avrqk", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "6cd98ee7-4939-47fb-8a5d-13f74ef76436",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gw301e:nth-child(3) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(3) > .css-14avrqk", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eeaad01-6df4-40f4-b7f6-3f49f11391c4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gw301e:nth-child(3) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(3) > .css-14avrqk", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "95a42817-176e-4e50-97dd-25b386ab4894",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gja9m7",
+      "targets": [
+        ["css=.css-gja9m7", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81383361-8e40-404d-a55e-68e22a52ad1e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,753.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d06f690-c267-414a-9ba3-b445da63a478",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,684.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af1e4d80-c5b9-4b47-aa18-c6cc8c3706e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gw301e:nth-child(2) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(2) > .css-14avrqk", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84858c3f-d520-41b1-a4d9-96ce8c43de51",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gw301e:nth-child(2) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(2) > .css-14avrqk", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "d4154f07-e1e0-461f-b7e8-58a5243cc65a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-gw301e:nth-child(3) > .css-14avrqk",
+      "targets": [
+        ["css=.css-gw301e:nth-child(3) > .css-14avrqk", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d9d533a-ede1-47a4-b386-e4b6e5c605a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-19sambb",
+      "targets": [
+        ["css=.css-19sambb", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[2]/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5d9b50a-9d81-46a9-bd2f-d088a9dcb1bc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1iig00v",
+      "targets": [
+        ["css=.css-1iig00v", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[5]/div/div/div/div[2]/div/div/div/div/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "08cf862e-c092-4a55-b7ee-4f78f0a45c2e",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0b381a1f-ac92-4e55-aa2b-8705c1b7c824"]
+  }],
+  "urls": ["https://www.walmart.ca/en"],
+  "plugins": []
+}
