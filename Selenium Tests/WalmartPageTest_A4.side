@@ -1,0 +1,567 @@
+{
+  "id": "8b3ed883-3d87-42ce-9cda-5cc018d109b9",
+  "version": "2.0",
+  "name": "WalmartPageTest_A4",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "034852dd-1dc9-4673-b4b2-844e0edbe8fb",
+    "name": "StoreFinderZIPCode",
+    "commands": [{
+      "id": "bca307b0-513c-4c7d-8553-eb3fced2fb3d",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b70a89c7-61ca-488b-bdc4-f5667a3a53aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "773x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91b9bba2-8bd3-4676-9e4e-d6ba2cca51a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1c248nr > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1c248nr > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[3]/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da993853-ada3-409d-9e84-fe4fb9ec63fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1c248nr > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1c248nr > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[3]/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62e26ba5-2260-4de2-840d-88e70d16ef87",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-thvji4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-thvji4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be10fbe5-550e-4a4c-a9ef-896aaa6c9b8c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-thvji4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-thvji4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a55499a9-6993-4696-991d-4419e31fb1ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.st0",
+      "targets": [
+        ["css=.st0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b4f59b5-3b19-4b0e-af2d-177f454a8aa1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b6bb3aa-c4d0-4cd0-98b8-a21c65f83e92",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more",
+      "targets": [
+        ["linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more", "linkText"],
+        ["css=.covid-banner > a", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/covid19-vaccinations-centre-info')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4310446-768b-42db-8637-f78f986fa7e1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more",
+      "targets": [
+        ["linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more", "linkText"],
+        ["css=.covid-banner > a", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/covid19-vaccinations-centre-info')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e80f789-faa2-4101-af25-bcca23cd7fd1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hidden-xs .sfa-wm-btn--secondary",
+      "targets": [
+        ["css=.hidden-xs .sfa-wm-btn--secondary", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[4]/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d309d819-d5e0-4cdf-af7b-098a3bf5bfcb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.covid-banner__text",
+      "targets": [
+        ["css=.covid-banner__text", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d543766-5c21-4b41-8d8f-0fcf18b7bf28",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.covid-banner__text",
+      "targets": [
+        ["css=.covid-banner__text", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "affd004d-7318-4a41-b4fe-9bbc544ae818",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more",
+      "targets": [
+        ["linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more", "linkText"],
+        ["css=.covid-banner > a", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/covid19-vaccinations-centre-info')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6a6dd5-5bad-4a7c-be3d-643632f95dff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container:nth-child(3)",
+      "targets": [
+        ["css=.container:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f2f9e99-d606-4e60-a831-8299b593a83e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value=' T3G 5T4']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": " T3G 5T4"
+    }, {
+      "id": "bb5fc932-78b8-4c4c-b663-fb0319cb4ec1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value=' T3G 5T4']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "63b4b407-0f81-4a4d-9177-c7bee33fb9ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more",
+      "targets": [
+        ["linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more", "linkText"],
+        ["css=.covid-banner > a", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/covid19-vaccinations-centre-info')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a23c927a-ff5c-40ad-be4d-a2d44c2499da",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sfa-store-list-item-5726 .sfa-store-list-item__name",
+      "targets": [
+        ["css=#sfa-store-list-item-5726 .sfa-store-list-item__name", "css:finder"],
+        ["xpath=//div[@id='sfa-store-list-item-5726']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Royal Oak Calgary Supercentre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d0f005-b057-41e9-a261-51470be3abec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Royal Oak Calgary Supercentre",
+      "targets": [
+        ["linkText=Royal Oak Calgary Supercentre", "linkText"],
+        ["css=.sfa-store-summary__name > .automation-store-details-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Royal Oak Calgary Supercentre')]", "xpath:link"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[4]/div[4]/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/stores-near-me/royal-oak-calgary-supercentre-5726')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Royal Oak Calgary Supercentre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f007bf9-825c-4261-b946-3274b3402e8d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1rpupoz",
+      "targets": [
+        ["css=.css-1rpupoz", "css:finder"],
+        ["xpath=//div[@id='store-detail-page']/main/div[3]/section/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Royal Oak Calgary Supercentre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9f168a6d-1e7f-4c08-ba8a-ed9a6d510aab",
+    "name": "StoreFinderRoyalOak",
+    "commands": [{
+      "id": "a8d24efd-189a-4dfc-a52b-81b8b256727d",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1dbdc84-bf84-4668-a50d-8acb3df1e229",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40e0d16d-203e-446e-90b6-0c74b137a124",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-3j1p7g > .css-1f9gjts",
+      "targets": [
+        ["css=.css-3j1p7g > .css-1f9gjts", "css:finder"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1d7041-fff0-4d35-83fa-811436546e4e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-3j1p7g > .css-1f9gjts",
+      "targets": [
+        ["css=.css-3j1p7g > .css-1f9gjts", "css:finder"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15e6438a-1c94-4b1b-b73f-23ae61f9cd66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc8350ea-b1a1-4f89-888b-da32fd1a5d4d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more",
+      "targets": [
+        ["linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more", "linkText"],
+        ["css=.covid-banner > a", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/covid19-vaccinations-centre-info')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c186d063-f74b-49f1-95dc-fd8cd103d079",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more",
+      "targets": [
+        ["linkText=COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more", "linkText"],
+        ["css=.covid-banner > a", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/covid19-vaccinations-centre-info')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60f7d232-e182-43f5-bfe4-28c31566604a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.covid-banner__text",
+      "targets": [
+        ["css=.covid-banner__text", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be178e58-c56c-425c-99f0-a904bf650bb7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.covid-banner__text",
+      "targets": [
+        ["css=.covid-banner__text", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div[2]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'COVID-19 vaccinations | Now available at select Walmart Pharmacies based on eligibility. Learn more ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec6c231-ba29-4206-8cd4-a186c3e63f80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfa-store-finder-page",
+      "targets": [
+        ["css=.sfa-store-finder-page", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a93addc-1030-47e9-ab61-db2bf66a34f7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value='Walmart Supercentre Royal Oak']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Walmart Supercentre Royal Oak"
+    }, {
+      "id": "e155ab7c-47a6-461c-9fd5-eb05da2b2f6b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value='Walmart Supercentre Royal Oak']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "23df1f7e-c379-49f1-908f-cd14d30f9b8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sfa-store-list-item-5726 .sfa-store-list-item__name",
+      "targets": [
+        ["css=#sfa-store-list-item-5726 .sfa-store-list-item__name", "css:finder"],
+        ["xpath=//div[@id='sfa-store-list-item-5726']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Royal Oak Calgary Supercentre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7268df7f-1f24-41a9-a67f-3307fbbe5627",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Royal Oak Calgary Supercentre",
+      "targets": [
+        ["linkText=Royal Oak Calgary Supercentre", "linkText"],
+        ["css=.sfa-store-summary__name > .automation-store-details-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Royal Oak Calgary Supercentre')]", "xpath:link"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[4]/div[4]/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/stores-near-me/royal-oak-calgary-supercentre-5726')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Royal Oak Calgary Supercentre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26c6c168-ecfb-4d45-b5e2-8e7b16d9c9f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eq9vrrw3:nth-child(1) .css-1tgzm9m",
+      "targets": [
+        ["css=.eq9vrrw3:nth-child(1) .css-1tgzm9m", "css:finder"],
+        ["xpath=//div[@id='store-detail-page']/main/article/section/div/div/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c72de15-9617-484b-b207-0e8de53511d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.eq9vrrw3:nth-child(1) .css-1tgzm9m",
+      "targets": [
+        ["css=.eq9vrrw3:nth-child(1) .css-1tgzm9m", "css:finder"],
+        ["xpath=//div[@id='store-detail-page']/main/article/section/div/div/div/button/div/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa890f9-a27a-4264-acfc-30bb2e4d9b03",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1rpupoz",
+      "targets": [
+        ["css=.css-1rpupoz", "css:finder"],
+        ["xpath=//div[@id='store-detail-page']/main/div[3]/section/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Royal Oak Calgary Supercentre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4e564ebe-96fc-4b07-9452-14869b83b031",
+    "name": "SignInPage",
+    "commands": [{
+      "id": "2dcc4873-eaa1-4f63-9d6e-69dd8fb001a3",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5688f2ad-5487-4ac2-a6d2-a63dd5f832e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98b1a15c-999b-4bd0-9b2e-3787b3040489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vfxkzw",
+      "targets": [
+        ["css=.css-vfxkzw", "css:finder"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1907034-a483-4cfa-92de-fc46dc283eb2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-14mhmqp",
+      "targets": [
+        ["css=.css-14mhmqp", "css:finder"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b0158c7e-8a94-4a93-b2a4-280790c3d7a2",
+    "name": "JoinPage",
+    "commands": [{
+      "id": "9d1f1868-e8e1-43e5-9caa-a95515f184ab",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd226830-495b-4897-b01e-5f60412b276d",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5eba86c-572e-49ab-bd32-a7f2d1c353d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bba2cde-a35e-4711-9027-6eb6169686e2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1xh2uh0 > div > span",
+      "targets": [
+        ["css=.css-1xh2uh0 > div > span", "css:finder"],
+        ["xpath=//a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52f3fea-a4cb-4a67-a970-1487c1933fe8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1xh2uh0 > div > span",
+      "targets": [
+        ["css=.css-1xh2uh0 > div > span", "css:finder"],
+        ["xpath=//a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6071a071-041b-4d17-a807-d7ffd9d69bda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join now",
+      "targets": [
+        ["linkText=Join now", "linkText"],
+        ["css=.css-1syn49", "css:finder"],
+        ["xpath=//a[contains(text(),'Join now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/create-account')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e817c1-9596-4751-98e0-ca5dc4bcb4d7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-14mhmqp",
+      "targets": [
+        ["css=.css-14mhmqp", "css:finder"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c4079216-faa2-489b-8755-cb7322722cb2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}

@@ -1,0 +1,297 @@
+{
+  "id": "b7784487-6eeb-4496-adec-9eb9a053e1c2",
+  "version": "2.0",
+  "name": "SENG438-A4",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "504a14e6-8edd-4ce4-9786-8d68b9623b8f",
+    "name": "ShoppingCartEmpty",
+    "commands": [{
+      "id": "04551996-04e8-4128-91e9-0a9e66a4fc10",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57c38dba-17d5-46c5-b0ca-121860aa3bfb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "698x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "876c4f30-fb39-48d0-aaa2-0d3bda9606cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-obceot .css-1wjacxm",
+      "targets": [
+        ["css=.css-obceot .css-1wjacxm", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7078e7e7-f69d-4307-b68f-8e539cc8fe62",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-19irnyl",
+      "targets": [
+        ["css=.css-19irnyl", "css:finder"],
+        ["xpath=//div[4]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6fc4a6ff-dfc3-4c1b-a365-9d7c17796865",
+    "name": "ShoppingCart2Items",
+    "commands": [{
+      "id": "35943721-888d-48c5-9e7a-774a3f5d7e81",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f767982-531a-493e-b7d1-3fc86e8456d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "698x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee8e0c5f-e101-4305-84fe-8b162ddd8687",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-obceot .css-1wjacxm",
+      "targets": [
+        ["css=.css-obceot .css-1wjacxm", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa9c30b-6e19-44a8-812d-891084236f4c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1r4uzkt",
+      "targets": [
+        ["css=.css-1r4uzkt", "css:finder"],
+        ["xpath=//div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ebc8044-7936-4a9b-8347-a2d9f30aefc4",
+    "name": "FilterTopRated",
+    "commands": [{
+      "id": "a6e03d77-2302-43b5-bad1-0516775ae6c6",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd8e24ac-3c42-4879-8fdc-4fb3e7916a74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1381x885",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e86a38ae-51ef-4afc-a13e-bea22c270eba",
+      "comment": "",
+      "command": "click",
+      "target": "id=departments-button",
+      "targets": [
+        ["id=departments-button", "id"],
+        ["linkText=Departments", "linkText"],
+        ["css=#departments-button", "css:finder"],
+        ["xpath=//a[@id='departments-button']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Departments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b559d2c5-a8a8-4d63-af25-6f046fc29db5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Microwaves",
+      "targets": [
+        ["linkText=Microwaves", "linkText"],
+        ["css=.css-jviqi7:nth-child(1) > .css-19idom:nth-child(2) li:nth-child(4) > .e1vl4lt215", "css:finder"],
+        ["xpath=//a[contains(text(),'Microwaves')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/browse/appliances/small-appliances/microwaves/10018-21074-32683?icid=Appliances_Flyout_Microwaves')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Microwaves')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "000186af-26dd-4734-9fce-4e41397e78d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,403)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ed7acc0-58bc-424d-b13c-adbabd92721b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17gzmsn:nth-child(2) > .css-iz0wk1",
+      "targets": [
+        ["css=.css-17gzmsn:nth-child(2) > .css-iz0wk1", "css:finder"],
+        ["xpath=//div[@id='browse-page']/div/div/div[4]/div/div[16]/div[2]/div/div/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9035df6-3fbd-4d0c-adf1-5020e32f62e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) > .css-1r1h93z span:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(5) > .css-1r1h93z span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='browse-page']/div/div/div[4]/div/div[16]/div[2]/div/div/div/div[2]/button/div[2]/div/div[2]/div[5]/li/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Popular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93141038-9567-4bea-9da7-93b2f4b63c6e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-17gzmsn:nth-child(1)",
+      "targets": [
+        ["css=.css-17gzmsn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='browse-page']/div/div/div[4]/div/div[16]/div[2]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Online Savings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f535aa47-7996-4678-9525-90b007ae0c7a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,759)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95584e2c-f5d6-4083-abb3-b8b4a10fec36",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-z0xj7h",
+      "targets": [
+        ["css=div:nth-child(1) > .css-1fnwt3w .css-z0xj7h", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div[2]/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8441197d-02fb-4f98-8348-d427faf0d69b",
+    "name": "FilterPanasonic",
+    "commands": [{
+      "id": "abe970d0-0eec-4336-be2e-298288330c54",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bf7bbe4-90bd-4bf8-a811-6969a3393707",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1381x885",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "030ffb98-ac19-4f3c-9a41-6d884b345387",
+      "comment": "",
+      "command": "click",
+      "target": "id=departments-button",
+      "targets": [
+        ["id=departments-button", "id"],
+        ["linkText=Departments", "linkText"],
+        ["css=#departments-button", "css:finder"],
+        ["xpath=//a[@id='departments-button']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Departments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db35ab8-48e1-49a1-8c73-a93acb36dec3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Microwaves",
+      "targets": [
+        ["linkText=Microwaves", "linkText"],
+        ["css=.css-jviqi7:nth-child(1) > .css-19idom:nth-child(2) li:nth-child(4) > .e1vl4lt215", "css:finder"],
+        ["xpath=//a[contains(text(),'Microwaves')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/browse/appliances/small-appliances/microwaves/10018-21074-32683?icid=Appliances_Flyout_Microwaves')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Microwaves')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6743cc1-6691-47cd-858b-fa3da9670404",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hboir5:nth-child(5) > .css-8atqhb .css-1qd0044",
+      "targets": [
+        ["css=.css-hboir5:nth-child(5) > .css-8atqhb .css-1qd0044", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "71cf63c4-324c-41dd-b481-15cce028b062",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-hboir5:nth-child(5) > .css-8atqhb .css-1qd0044",
+      "targets": [
+        ["css=.css-hboir5:nth-child(5) > .css-8atqhb .css-1qd0044", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c42275e-103f-4ff0-95e4-a5086eda8009",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1bnwyyw:nth-child(1) > .e8eb2yh5 .css-1djsvg4",
+      "targets": [
+        ["css=.css-1bnwyyw:nth-child(1) > .e8eb2yh5 .css-1djsvg4", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[4]/div/div/div/div[2]/div/div/div[2]/a/div/div/label", "xpath:idRelative"],
+        ["xpath=//a/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badcc572-a36d-4526-a19c-bf2dd5fc7697",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,581.183349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e163773d-4b44-409b-a5ac-a8b2d3ce5863",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,410.1833190917969)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dd3446f-d5a0-47e5-9c2e-e4e1bc9c4664",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1bnwyyw:nth-child(1) .css-1djsvg4",
+      "targets": [
+        ["css=.css-1bnwyyw:nth-child(1) .css-1djsvg4", "css:finder"],
+        ["xpath=//div[@id='left-navigation']/div[4]/div/div/div/div[2]/div/div/div[2]/a/div/div/label", "xpath:idRelative"],
+        ["xpath=//a/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6fe28afe-e337-4426-be1b-ef218c199911",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}
