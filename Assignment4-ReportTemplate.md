@@ -15,7 +15,15 @@ The purpose of this lab is to further enhance our test suite from labs 2 and 3 b
 # Analysis of 10 Mutants of the Range class 
 
 # Report all the statistics and the mutation score for each test class
+DataUtilitiesTest Mutation Score
 
+
+![](./media/DataUtilities.png)
+
+RangeTest Mutation Score
+
+
+![](./media/Range.png)
 
 
 # Analysis drawn on the effectiveness of each of the test classes
