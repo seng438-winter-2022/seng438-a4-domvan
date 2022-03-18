@@ -1,0 +1,202 @@
+{
+  "id": "f0a03e2d-7a51-41da-b271-0a293d776e6e",
+  "version": "2.0",
+  "name": "GroceryAisle",
+  "url": "https://www.walmart.ca/cp/grocery",
+  "tests": [{
+    "id": "f2e36634-cb5a-4bf4-be85-402afbd7e7d5",
+    "name": "FruitsVegetables",
+    "commands": [{
+      "id": "0e32b538-411a-4d28-8be8-0683b1e00fdd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/cp/grocery",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "800a3b7f-4847-437b-8977-a746694f74a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1128x509",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d469de5c-43fa-484c-b2e5-361cc972bd88",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='freeZone2']/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ee0bf31-41f3-4dec-a8fa-e214f95f9e58",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='freeZone2']/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfec365f-51e4-4fd1-9c56-e449b7e403df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3014e8ad-a04b-4958-80a3-92acb089edc0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,498)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d24fd65-f26e-4c39-9b06-e2a0ed7e53d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,692)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f68aa73-c52a-4bba-8a38-e78b100d41bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#XhL7Sr-g img",
+      "targets": [
+        ["css=#XhL7Sr-g img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i5.walmartimages.com/dfw/8822aef6-d9a4/k2-_a66e3926-d9a2-456c-8d7e-e5435605d805.v1.jpg')]", "xpath:img"],
+        ["xpath=//a[@id='XhL7Sr-g']/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "203de53f-479f-4e85-81c6-fe0555ff21bd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ekiwotq0",
+      "targets": [
+        ["css=.ekiwotq0", "css:finder"],
+        ["xpath=//div[@id='browse-page']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Buy fresh fruits & vegetables online')]", "xpath:innerText"]
+      ],
+      "value": "Buy fresh fruits & vegetables online"
+    }]
+  }, {
+    "id": "9f35a5b2-3e9a-45ea-bc0b-69e67dcaf15d",
+    "name": "DairyEggs",
+    "commands": [{
+      "id": "912d8d94-8f51-4d84-966c-72caa6f1321b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/cp/grocery",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "904c9557-cbc3-448d-85cb-3842d5d5ab6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1128x509",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4718b973-db3a-4e4e-9e8f-5b5de410a80c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='freeZone2']/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f6c711-2af7-40d0-9b16-ed3ddc47158d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,24)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85b7f315-364b-4650-af86-3864a733d639",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='freeZone2']/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d324c9b-4a9a-4363-bb23-011c5607a24f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,682)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3994676-7923-4045-8823-f668564754a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33PjbWlBR img",
+      "targets": [
+        ["css=#\\33PjbWlBR img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i5.walmartimages.com/dfw/8822aef6-de97/k2-_2724272c-b617-42d2-bec1-6000bd4d7d54.v1.jpg')]", "xpath:img"],
+        ["xpath=//a[@id='3PjbWlBR']/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd24dc0f-7466-44ad-8fb8-f2b830de88e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#x3BhjrTa > .css-hqry55",
+      "targets": [
+        ["css=#x3BhjrTa > .css-hqry55", "css:finder"],
+        ["xpath=//a[@id='x3BhjrTa']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ae75a1-44bd-49cd-9437-41296855dec5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#x3BhjrTa > .css-hqry55",
+      "targets": [
+        ["css=#x3BhjrTa > .css-hqry55", "css:finder"],
+        ["xpath=//a[@id='x3BhjrTa']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5dd85e-994d-4587-8825-5f518b7eea21",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ekiwotq0",
+      "targets": [
+        ["css=.ekiwotq0", "css:finder"],
+        ["xpath=//div[@id='browse-page']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Fresh dairy products & eggs')]", "xpath:innerText"]
+      ],
+      "value": "Fresh dairy products & eggs"
+    }]
+  }],
+  "suites": [{
+    "id": "33b4cc22-9ebf-4758-9729-ec93f11ef0fa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f2e36634-cb5a-4bf4-be85-402afbd7e7d5"]
+  }],
+  "urls": ["https://www.walmart.ca/cp/grocery"],
+  "plugins": []
+}

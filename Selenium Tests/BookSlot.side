@@ -1,0 +1,164 @@
+{
+  "id": "7f8377ec-3ac0-4bb2-9a60-812fab7bb13c",
+  "version": "2.0",
+  "name": "BookSlot",
+  "url": "https://www.walmart.ca/cp/grocery",
+  "tests": [{
+    "id": "0a3d4508-f960-4076-b545-7c14282f8bbe",
+    "name": "Pickup",
+    "commands": [{
+      "id": "cbc7d6c3-3a89-4ef0-8f31-c99d5eef8f40",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/cp/grocery",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b73828ce-9f63-4817-a904-20ffc2c28cea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1128x514",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74f38107-86d1-4a9b-ac15-6d77016fc790",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,22)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8548cdb8-3e4c-4530-9b21-df46a51f836b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,490)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a0eda1e-c51b-4765-9840-e5a17443e1d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ek6bj211",
+      "targets": [
+        ["css=.ek6bj211", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90979659-8727-42af-be5c-a9da55f0d291",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ek6bj212",
+      "targets": [
+        ["css=.ek6bj212", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "179cbf71-5245-483f-967f-b64ac71ebe16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a0f16a1-be99-4144-ac16-deba31a49a92",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,153)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "237386bc-45f1-4268-a451-3c4c3440aba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1k5cyo3",
+      "targets": [
+        ["css=.css-1k5cyo3", "css:finder"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8429de5a-ceb1-4281-b12d-b2bde6289d47",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-yq4aie",
+      "targets": [
+        ["css=.css-yq4aie", "css:finder"],
+        ["xpath=//input[@value='Find']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a8108b8-d1e3-4b1f-a8b3-61a80307a896",
+    "name": "Delivery",
+    "commands": [{
+      "id": "220a85f5-e87c-41ca-9ca9-52341ae52529",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/cp/grocery",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4288c2f1-4313-47ef-ba84-4cfaff3122a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1128x514",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03445df8-2afd-4bf1-ad9f-ae710dfef3ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ek6bj211",
+      "targets": [
+        ["css=.ek6bj211", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a8d5e49-23d4-413c-99e0-1a4848820bbb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ek6bj212",
+      "targets": [
+        ["css=.ek6bj212", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be53d46e-ce2a-48e8-b6bb-87ad06a6b2f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1vs4fdj",
+      "targets": [
+        ["css=.css-1vs4fdj", "css:finder"],
+        ["xpath=//div[2]/a/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4957303-2eed-455c-9add-ace105f938be",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-dldxm2",
+      "targets": [
+        ["css=.css-dldxm2", "css:finder"],
+        ["xpath=//form[@id='addressForm']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5541cd57-e3c6-457c-9640-324cfdb66e05",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.walmart.ca/", "https://www.walmart.ca/cp/grocery"],
+  "plugins": []
+}
